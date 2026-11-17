@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bjnuish4w3l03"]
+
+[ext_resource type="Texture2D" uid="uid://bfo7atuls7j38" path="res://assets/brackeys_platformer_assets/sprites/world_tileset.png" id="1_s6a5n"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fjn22"]
+size = Vector2(14, 14)
+
+[node name="AnimatableBody2D" type="AnimatableBody2D" unique_id=1663518783]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=349332137]
+texture = ExtResource("1_s6a5n")
+region_enabled = true
+region_rect = Rect2(17, 33, 14, 14)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=366161951]
+shape = SubResource("RectangleShape2D_fjn22")
+one_way_collision = true
+one_way_collision_direction = Vector2(0, -1)

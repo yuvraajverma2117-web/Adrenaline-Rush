@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://hp4cf0vsekbt"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fjn22"]
+
+[node name="enemy" type="Node2D" unique_id=1421817406]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1716899137]
+sprite_frames = SubResource("SpriteFrames_fjn22")
+frame_progress = 0.6865789
