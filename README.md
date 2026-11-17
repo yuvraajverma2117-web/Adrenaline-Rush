@@ -1,35 +1,38 @@
-# Adrenaline Rush
+# adrenaline rush
 
-A first 2D platformer made in Godot. The playable browser build is published as **Baby Zombie**.
+yo, this is my first 2d platformer made in Godot 4.7. it’s a pixel-art run through bright backgrounds, moving platforms, tricky jumps and traps. it’s tough, but doable — good timing, patience and practice get you to the end
 
-**Play the game:** [yuvraajverma-web.itch.io/baby-zombie](https://yuvraajverma-web.itch.io/baby-zombie)
+**play it here:** [baby zombie on itch.io](https://yuvraajverma-web.itch.io/baby-zombie)
 
-## About the game
+## how to play
 
-Adrenaline Rush is a pixel-art platformer built around a tough but fair challenge. Bright scenery and a long course of platforms lead into moving-platform sections, tricky jumps, and traps. Good timing, patience, and practice help you reach the end: it is difficult, but doable.
+- move left or right: left/right arrow keys
+- jump: space (`ui_accept`)
+- touching the kill zone resets the level, so yeah, give it another go
 
-## Gameplay
+## cheat code
 
-- Navigate a side-scrolling platform course.
-- Time jumps across gaps and around hazards.
-- Ride platforms that move along animated paths.
-- Avoid traps; touching the kill zone restarts the level.
+wanna get the cheat code? dm [@Beaniebin](https://hackclub.enterprise.slack.com/team/U0A187FQ1MK) on Slack and ask for it — i’ll send it over, not posting the code here lol
 
-## Controls
+## run it locally
 
-- Move left and right: **Left/Right Arrow**
-- Jump: **Space** (`ui_accept`)
+1. install Godot 4.7
+2. open `project.godot` in Godot and run the main scene
 
-## Run the project
+## what’s in here
 
-1. Install **Godot 4.7** (the project declares Godot 4.7 features).
-2. Open `project.godot` in Godot and run the main scene.
-
-## Project contents
-
-- `scenes/` — game, player, platform, trap, and kill-zone scenes
+- `scenes/` — game, player, platforms, traps and kill zone
 - `scripts/` — player movement and hazard reset logic
-- `assets/` — pixel-art sprites, music, sound effects, and fonts
-- `addons/` — Godot Super-WakaTime editor add-on
+- `assets/` — pixel-art sprites, music, sound effects and fonts
+- `addons/` — the Godot Super-WakaTime editor add-on; its API key isn’t included, so set that up separately if you use it
 
-The original project includes the WakaTime editor add-on. Its API key is not part of this repository; configure it separately on your own machine if you use that add-on. Asset-pack licensing and credits are in `assets/brackeys_platformer_assets/LICENSE & CREDITS.txt` (the pack states CC0).
+## asset credits
+
+the asset pack was repackaged and many assets were modified by Brackeys. the pack says **CC0**
+
+- sprites: analogStudios_ ([knight](https://analogstudios.itch.io/camelot), [slime](https://analogstudios.itch.io/dungeonsprites), [platforms and coin](https://analogstudios.itch.io/four-seasons-platformer-sprites)) and RottingPixels ([world tileset and fruit](https://rottingpixels.itch.io/four-seasons-platformer-tileset-16x16free))
+- sounds: Brackeys and Asbjørn Thirslund
+- music: Brackeys and Sofia Thirslund
+- font: Pixel Operator by Jayvee Enaguas / HarvettFox96 ([dafont](https://www.dafont.com/pixel-operator.font?l[]=10&l[]=1))
+
+full license and credits are in `assets/brackeys_platformer_assets/LICENSE & CREDITS.txt`
