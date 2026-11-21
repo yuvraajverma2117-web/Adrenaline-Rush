@@ -1,3 +1,4 @@
+<img width="1800" height="1169" alt="Screenshot 2026-11-22 at 2 53 41 AM" src="https://github.com/user-attachments/assets/a135f167-01d6-4bd2-9a8f-e3e224efa5c6" />
 # adrenaline rush
 
 yo, this is my first 2d platformer made in Godot 4.7. it’s a pixel-art run through bright backgrounds, moving platforms, tricky jumps and traps. it’s tough, but doable — good timing, patience and practice get you to the end
